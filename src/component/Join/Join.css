@@ -2,6 +2,7 @@
   display:flex;
   padding:0 2rem;
   gap:10rem;
+  justify-content: space-between;
 }
 
 .left-j{
@@ -27,8 +28,6 @@
   display: flex; 
   justify-content: center;
   align-items: flex-end;
-  margin-left: 42%;
-
 }
 .email-container{
   display: flex;

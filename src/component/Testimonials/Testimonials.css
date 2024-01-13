@@ -2,12 +2,15 @@
   display: flex;
   gap: 1rem;
   padding: 0 2rem;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
 }
 
 .left-t {
   display: flex;
   flex: 1 1;
-  gap: 2rem;
+  gap:1rem;
   flex-direction: column;
   text-transform: uppercase;
   color: white;

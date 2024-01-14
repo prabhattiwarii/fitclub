@@ -46,7 +46,7 @@ const Join = () => {
 				{!isSubmitted ? (
 					<form ref={form} className="email-container" onSubmit={sendEmail}>
 						<input type="email" name="user_email" placeholder="Enter your Email address" required />
-						<button className="btn btn-j" disabled={isSubmitting}>
+						<button className="btn btn-j" id="btn-join" disabled={isSubmitting}>
 							{isSubmitting ? 'Submitting...' : 'Join Now'}
 						</button>
 					</form>

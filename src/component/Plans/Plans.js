@@ -6,7 +6,17 @@ import whiteTick from '../../assets/whiteTick.png';
 const Plans = () => {
     const handleJoinNow = (planName) => {
         console.log(`Join now clicked for ${planName}`);
+        scrollToJoin();
         // Add your logic here to handle the action when the user clicks "Join now"
+    };
+    const scrollToJoin = () => {
+        const joinSection = document.getElementById('btn-join');
+
+        if (joinSection) {
+            joinSection.scrollIntoView({
+                behavior: 'smooth',
+            });
+        }
     };
 
     return (
